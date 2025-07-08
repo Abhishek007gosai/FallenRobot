@@ -1,3 +1,4 @@
+asyncpg
 aiofiles==24.1.0
 apscheduler==3.6.3
 asyncio==3.4.3
