@@ -5,9 +5,9 @@ class Config(object):
     API_ID = 6
     API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "TN0MB8IYW9M1SZ5J"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgresql+asyncpg://neondb_owner:npg_XbwV4SzKFn7G@ep-steep-feather-a8wgninx-pooler.eastus2.azure.neon.tech/neondb"  # A sql database url from elephantsql.com
 
     EVENT_LOGS = ()  # Event logs channel to note down important bot level events
 
@@ -20,13 +20,13 @@ class Config(object):
 
     TOKEN = ""  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "4F4M3PD40GD8"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
+    OWNER_ID = 7654385403  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
+    DRAGONS = [7654385403]  # User id of sudo users
     DEV_USERS = []  # User id of dev users
     DEMONS = []  # User id of support users
     TIGERS = []  # User id of tiger users
