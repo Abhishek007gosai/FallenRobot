@@ -7,7 +7,7 @@ class Config(object):
 
     CASH_API_KEY = "TN0MB8IYW9M1SZ5J"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = "postgresql+asyncpg://neondb_owner:npg_XbwV4SzKFn7G@ep-steep-feather-a8wgninx-pooler.eastus2.azure.neon.tech/neondb"  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgresql://albedo_user:8yU8LXuAnJZ8hcm1VGCQJBykQBckn8gt@dpg-d25ujh8gjchc73dp2ufg-a/albedo"  # A sql database url from elephantsql.com
 
     EVENT_LOGS = (-1002456565415)  # Event logs channel to note down important bot level events
 
