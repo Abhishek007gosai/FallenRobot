@@ -2,16 +2,16 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 29245477
+    API_ID = 
     API_HASH = "0abc83883262245c90ca337b7a0375c4"
 
     CASH_API_KEY = "TN0MB8IYW9M1SZ5J"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = "postgresql://albedo_user:8yU8LXuAnJZ8hcm1VGCQJBykQBckn8gt@dpg-d25ujh8gjchc73dp2ufg-a/albedo"  # A sql database url from elephantsql.com
+    DATABASE_URL = ""  # A sql database url from elephantsql.com
 
     EVENT_LOGS = (-1002442661089)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = "mongodb+srv://Kafka:Au3OoWzCDYJKeuHU@cluster0.lz2m8iy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://litter.catbox.moe/m4c4wu.jpg"
