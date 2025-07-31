@@ -7,11 +7,11 @@ class Config(object):
 
     CASH_API_KEY = "TN0MB8IYW9M1SZ5J"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = "postgresql+asyncpg://neondb_owner:npg_XbwV4SzKFn7G@ep-steep-feather-a8wgninx-pooler.eastus2.azure.neon.tech/neondb"  # A sql database url from elephantsql.com
+    DATABASE_URL = ""  # A sql database url from elephantsql.com
 
     EVENT_LOGS = ()  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = "mongodb+srv://Kafka:Au3OoWzCDYJKeuHU@cluster0.lz2m8iy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://te.legra.ph/file/40eb1ed850cdea274693e.jpg"
