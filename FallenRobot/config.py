@@ -9,7 +9,7 @@ class Config(object):
 
     DATABASE_URL = "postgresql://albedo_user:8yU8LXuAnJZ8hcm1VGCQJBykQBckn8gt@dpg-d25ujh8gjchc73dp2ufg-a/albedo"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = (-1002456565415)  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1002442661089)  # Event logs channel to note down important bot level events
 
     MONGO_DB_URI = "mongodb+srv://Kafka:Au3OoWzCDYJKeuHU@cluster0.lz2m8iy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Get ths value from cloud.mongodb.com
 
